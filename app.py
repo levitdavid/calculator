@@ -16,7 +16,9 @@ def lex(s):
             r.append('Unknown')
     return r
 
-
+'''
+Считаем синтексис
+'''
 def syntacsis(a):
     r = []
     numbers = False
@@ -36,7 +38,9 @@ def syntacsis(a):
         r.append(n)
     return r
 
-
+'''
+Преобразуем число в его словесное представление
+'''
 def numers(n):
     result = ''
     names = ['ноль', 'один', 'два', 'три', 'четыре', 'пять', 'шесть', 'семь', 'восемь', 'девять', 'десять',
